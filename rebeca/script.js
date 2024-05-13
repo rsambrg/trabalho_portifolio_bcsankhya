@@ -11,7 +11,7 @@ function mudarConteudoSobre() {
 }
 
 function mudarConteudoLinks() {
-    var novoConteudo ="<p><ul><li><h4><a href='rebeca/exemplos/01/index.html'><button type='button'>5 livros para me conhecer! </button></a></h4></li><li><h4><a href='https://rsambrg.github.io/bcsankhya/index.html'><button type='button'>Página de links do github com atualizações diárias</button></a></h4></li><li><h4> <a href='https://rsambrg.github.io/bcsankhya/03_Aula_08_05/aula_03_tabela.html'><button type='button'>Atualmente desenvolvendo API com dados de animais</button></a></h4></li><li><h4><a href='rebeca/exemplos/02/questao-03.html'><button type='button'>Blog sobre folclore e cultura regional</button></a></h4></li></ul></section></p>";
+    var novoConteudo ="<p><ul><li><h4><a href='exemplos/01/index.html'><button type='button'>5 livros para me conhecer! </button></a></h4></li><li><h4><a href='https://rsambrg.github.io/bcsankhya/index.html'><button type='button'>Página de links do github com atualizações diárias</button></a></h4></li><li><h4> <a href='https://rsambrg.github.io/bcsankhya/03_Aula_08_05/aula_03_tabela.html'><button type='button'>Atualmente desenvolvendo API com dados de animais</button></a></h4></li><li><h4><a href='exemplos/02/questao-03.html'><button type='button'>Blog sobre folclore e cultura regional</button></a></h4></li></ul></section></p>";
     document.getElementById("conteudo").innerHTML = novoConteudo;
 }
 
