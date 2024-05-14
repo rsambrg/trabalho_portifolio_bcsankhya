@@ -18,6 +18,41 @@ header{
     height: 50%;
 }
 
+.homebutton:hover {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #E3761C,
+        0 0 82px #E3761C,
+        0 0 92px #008cf8,
+        0 0 102px #008cf8,
+        0 0 151px #008cf8;
+    transition-duration: 100ms;
+    text-shadow:
+        0 0 7px #ffffff,
+        0 0 10px #ffffff,
+        0 0 21px #fff,
+        0 0 42px #f80080,
+        0 0 82px #f80080,
+        0 0 92px #008cf8,
+        0 0 102px #008cf8,
+        0 0 151px #008cf8;
+        transition-duration: 200ms;
+    text-shadow:
+        0 0 7px #ffffff,
+        0 0 10px #ffffff,
+        0 0 21px #fff,
+        0 0 42px #f80080,
+        0 0 82px #f80080,
+        0 0 92px #f80080,
+        0 0 102px #f80080,
+        0 0 151px #f80080;
+        transition-duration: 200ms;
+
+}
+
 .center-block {
     display: block;
     margin-left: auto;
@@ -86,8 +121,16 @@ button#links:hover{
     animation-duration: fadeOut 10s forwards;
 }
 
-@keyframes fadeOut {
-    0% { opacity: 1; } /* Opacidade total no início */
-    90% { opacity: 1; } /* Opacidade total até 90% do tempo */
-    100% { opacity: 0; } /* Opacidade zero no final */
-  }
+#titulo, button#links:hover {
+    color: #ffffff;
+    text-shadow:
+        0 0 7px #ffffff6d,
+        0 0 10px #ffffff6b,
+        0 0 21px #ffffff6f,
+        0 0 42px #e3751c71,
+        0 0 82px #e3751c69,
+        0 0 92px #008df872,
+        0 0 102px #008cf8,
+        0 0 151px #008cf8;
+    
+}
